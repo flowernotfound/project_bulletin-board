@@ -1,0 +1,40 @@
+/* CSSのスタイルシート */
+
+/* ボディ全体のスタイル */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+/* フォーム要素のスタイル */
+input[type="text"], input[type="number"] {
+    padding: 5px;
+    margin: 5px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* 投稿、削除、編集ボタンのスタイル */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* ボタンのホバーエフェクト */
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* 投稿の表示エリアのスタイル */
+.post-display {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+}
