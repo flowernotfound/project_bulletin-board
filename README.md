@@ -1,2 +1,2 @@
 # project-php
-phpとMySQLを利用して作成した簡易的な掲示板
+A simple bulletin board created using PHP and MySQL.
